@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+</head>
+<body>
+    <h1>FreeCode Survery Form</h1>
+    <h4>Thank you for taking the time to help us improve the platform</h4>
+    <form>
+        <fieldset>
+            <label for="name">Name</label><br>
+            <input type="text" id="name" name="name" placeholder="Enter your name"><br>
+            <label for="email">Email</label><br>
+            <input type="email" id="email" placeholder="Enter your email"><br>
+            <label for="age">Age (optional)</label><br>
+            <input type="number" id="age" placeholder="Enter your age"><br>
+            <label for="role">Which option best describes your current role ?</label><br>
+            <select id="role" name="role" required >
+                <option value="Selection">--Selectionner une option--</option>
+                <option value="student">Student</option>
+                <option value="fullTimej">Full time job</option>
+                <option value="fullTimeL">Full time learner</option>
+                <option value="prefer">Prefer not to say</option>
+                <option value="other">Other</option>
+            </select>
+        </fieldset>
+    </form>
+    
+</body>
+</html>
