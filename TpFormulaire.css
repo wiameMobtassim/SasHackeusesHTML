@@ -1,0 +1,82 @@
+body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    background-image: url(img.jpeg);
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: aliceblue;
+
+    
+}
+/* Centrer le formulaire */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 250vh; /* Centrer verticalement */
+    text-align: left;
+    background-color: rgb(6, 75, 31); /* Fond semi-transparent pour le formulaire */
+    box-shadow: 0 4px 8px rgba(12, 12, 12, 2.2);
+    width: 100%;
+    max-width: 600px; /* Largeur maximale pour le formulaire */
+    margin: 50px auto; /* Espacement du formulaire par rapport aux bords de l'écran */
+    padding: 20px;
+    border-radius: 8px;
+}
+h1{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h4{
+    color: aliceblue;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+#feature,
+#role,
+textarea {
+    width: 500px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+.W1{
+    width: 250px;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 0 5px 10px rgba(67, 231, 86, 1.2);
+}
+
+button {
+    width: 500px;
+    padding: 10px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
